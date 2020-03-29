@@ -1,0 +1,15 @@
+@import '../../styles/colors';
+
+.button{
+    width: 120px;
+    color: $color-font-secondary;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 3px;
+    font-size: 10px;
+    cursor: pointer;
+    &:hover{
+        background-color:  rgba(94, 92, 92, 0.26);
+        color:  rgb(58, 58, 58);
+    }
+}
