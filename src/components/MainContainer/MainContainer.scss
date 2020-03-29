@@ -1,8 +1,10 @@
 .main-container{
     display: flex;
     flex-direction: column;
+    
 
     .main-under-nav{
         display: flex;
+        justify-content: space-between;
     }
 }

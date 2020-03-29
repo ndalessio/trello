@@ -1,5 +1,5 @@
 import React from 'react';
-import uuid from 'uuid/v4';
+
 import Card from '../Card/Card';
 import Input from '../Input/Input';
 import Button from '../Button/Button';
@@ -10,7 +10,7 @@ const Column = props => (
         <div className='column-title'>{props.title}</div>
         { props.cards.map(card => 
             <Card 
-                key={uuid()}
+                key={card.id}
                 title={card.title} 
                 text={card.text}
                 />) 
