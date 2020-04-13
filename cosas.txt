@@ -1,3 +1,5 @@
 -Pasar maps a un componente listas
 -Crear los imputs componentes
 -Ver métodos de JS
+
+-No se porque el onclick en el buton no funciona

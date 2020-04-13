@@ -1,5 +1,4 @@
-import React from react;
-import './CommentList.scss';
+import React from react
 
 const CommentList = ({comments}) => (
     comments.map(comment => 
@@ -11,3 +10,4 @@ const CommentList = ({comments}) => (
 )
 
 export default CommentList
+

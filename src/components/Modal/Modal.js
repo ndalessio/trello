@@ -2,7 +2,7 @@ import React from 'react'
 import './Modal.scss'
 import ButtonsContainer from './ButtonsContainer/ButtonsContainer'
 import TittleWithIcon from './TittleWithIcon/TittleWithIcon'
-import AddInput from '../AddInput/AddInput'
+import AddInput from '../AddColumn/AddColumn'
 import Button, { BUTTON_SIZES, BUTTON_TYPES } from '../Button/Button'
 import { faWindowMaximize, faAlignLeft, faTimes } from '@fortawesome/free-solid-svg-icons'
 

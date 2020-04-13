@@ -13,8 +13,8 @@ const MainContainer = () => (
         </div>
         <div className='main-under-nav'>
         <ColumnContainer></ColumnContainer>
-        <Modal></Modal>
-        <AsideMenu></AsideMenu>
+        {/* <Modal></Modal>
+        <AsideMenu></AsideMenu> */}
         </div>  
     </div>
 )

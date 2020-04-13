@@ -9,14 +9,14 @@ import { faPlus } from '@fortawesome/free-solid-svg-icons'
 const Column = props => (
     <div className='column'>
         <div className='column-title'>{props.title}</div>
-        {
+        {/* {
             props.cards.map(card =>
                 <Card
                     key={card.id}
                     title={card.title}
                     text={card.text}
                 />)
-        }
+        } */}
         <AddCard text={' Añada otra tarjeta'} icon={faPlus}></AddCard>
         <Button text={'Añadir'}></Button>
     </div>
