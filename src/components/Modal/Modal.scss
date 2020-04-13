@@ -1,0 +1,35 @@
+@import '../../styles/colors';
+
+.modal{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 470px;
+    padding: 15px;
+    background-color: $column-color;
+    position: absolute;
+    left: 35%;
+
+    .modal-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .close-button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size:25px;
+            margin: 5px;
+        }
+    }
+    .modal-body{
+        display: flex;
+        
+        .modal-body-left{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+}

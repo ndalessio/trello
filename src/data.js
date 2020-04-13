@@ -11,10 +11,12 @@ const columns = [
                 text: 'Leer algun librito',
                 tags: [
                     {
+                        id: uuid(),
                         name: 'easy',
-                        color: 'color'
+                        color: 'green'
                     },
                     {
+                        id: uuid(),
                         name: 'complicated',
                         color: 'yellow'
                     }
@@ -23,7 +25,8 @@ const columns = [
             {
                 id: uuid(),
                 title: 'Cuando tengas hambre',
-                text: 'prepara unos garbanzos al horno'
+                text: 'prepara unos garbanzos al horno',
+                tags: []
             }
         ]
     },
@@ -34,12 +37,14 @@ const columns = [
             {
                 id: uuid(),
                 title: 'Estudio',
-                text: 'ver videos de react y practicar'
+                text: 'ver videos de react y practicar',
+                tags: []
             },
             {
                 id: uuid(),
                 title: 'Leer',
-                text: 'Leyendo libro de Cortázar'
+                text: 'Leyendo libro de Cortázar',
+                tags: []
             }
         ]
     }

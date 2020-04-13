@@ -1,0 +1,3 @@
+-Pasar maps a un componente listas
+-Crear los imputs componentes
+-Ver métodos de JS

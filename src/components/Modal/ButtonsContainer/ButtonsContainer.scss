@@ -1,0 +1,16 @@
+@import '../../../styles/colors';
+
+.buttons-container{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 2px;
+
+    .button-title{
+        font-size: 12px;
+        font-weight: bold;
+        color: $color-font-primary;
+        margin: 3px;
+        padding: 2px 3px;
+    }
+}

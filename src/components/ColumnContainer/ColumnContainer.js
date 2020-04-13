@@ -3,6 +3,7 @@ import Column from '../Column/Column';
 import './ColumnContainer.scss';
 import columns from '../../data';
 
+
 const ColumnContainer = () => (
     <div className='column-container'>
         {

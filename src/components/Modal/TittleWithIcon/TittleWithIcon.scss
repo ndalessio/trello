@@ -1,0 +1,16 @@
+@import '../../../styles/colors';
+
+.tittle-icon{
+    display: flex;
+    align-items: center;
+    width: 280px;
+    height: 25px;
+    color: $color-font-primary;
+    margin: 5px;
+    font-size: 15px;
+    font-weight: 500;
+}
+    
+.icon{
+    margin: 10px;
+}
